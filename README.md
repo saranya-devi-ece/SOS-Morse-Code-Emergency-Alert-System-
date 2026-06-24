@@ -1,61 +1,63 @@
 # 🚨 SOS Morse Code Emergency Alert System using Arduino UNO
 
 ## 📖 Project Description
-The **SOS Morse Code Emergency Alert System** is an Arduino UNO-based project designed to generate the internationally recognized **SOS (`... --- ...`) distress signal** using an LED and/or buzzer. This project demonstrates the fundamentals of embedded systems programming, digital output control, and Morse code communication, making it an excellent educational tool for students and beginners.
+The **SOS Morse Code Emergency Alert System** is an Arduino UNO-based embedded systems project that generates the internationally recognized **SOS (`... --- ...`) distress signal** using an LED and buzzer. A **16×2 LCD** displays the current Morse code transmission, while a **push button** is used to trigger the emergency alert. The project was designed and tested using the **Wokwi Online Simulator**.
 
 ## 🔧 Project Objective
-- Generate the standard SOS Morse code sequence using Arduino UNO.
-- Simulate an emergency alert through visual or audible signals.
-- Demonstrate timing control and digital I/O programming in embedded systems.
-- Provide a simple and practical project for learning Arduino development.
+- Generate the standard SOS Morse code sequence.
+- Provide visual (LED), audible (buzzer), and text (LCD) indications.
+- Demonstrate embedded programming and timing control using Arduino.
+- Simulate an emergency alert system for educational purposes.
 
 ## ⚙️ Working Principle
-The Arduino executes the SOS Morse code pattern by producing:
-- **S** → `...` (Three short signals)
-- **O** → `---` (Three long signals)
-- **S** → `...` (Three short signals)
-
-The sequence is repeated continuously with appropriate delays, creating a recognizable emergency distress signal.
+- The user presses the push button to activate the system.
+- The Arduino transmits the SOS pattern (`... --- ...`) using:
+  - **LED blinking**
+  - **Buzzer beeps**
+- The **16×2 LCD** displays the current transmission status.
+- The sequence follows standard Morse code timing and can repeat as programmed.
 
 ## 🛠️ Components Used
 - Arduino UNO
+- 16×2 LCD Display
+- Push Button
 - LED
-- Active Buzzer 
+- Active Buzzer
+- Potentiometer (LCD Contrast Control)
 - 220Ω Resistor
 - Jumper Wires
 
 ## 💻 Technologies Used
 - Arduino UNO
-- C/C++ (Arduino Programming Language)
-- Wokwi Online Simulator 
+- C/C++ (Arduino Programming)
+- Wokwi Online Simulator
 
 ## ✨ Features
-- Generates the standard SOS (`... --- ...`) Morse code pattern.
-- Supports LED and buzzer-based emergency indication.
-- Simple and easy-to-understand Arduino implementation.
-- Ideal for embedded systems and electronics learning.
-- Can be extended for real-world emergency notification applications.
+- Generates the standard SOS (`... --- ...`) Morse code.
+- LED and buzzer-based emergency indication.
+- LCD displays transmission status in real time.
+- Button-triggered emergency activation.
+- Beginner-friendly embedded systems project.
 
 ## 🎯 Applications
-- Emergency Alert Systems
-- Embedded Systems Education
-- Arduino Learning Projects
-- Morse Code Demonstrations
-- Electronics Laboratory Experiments
-- IoT Prototype Development
+- Emergency alert demonstrations
+- Arduino and embedded systems learning
+- Morse code communication projects
+- Academic mini projects
+- Electronics laboratory experiments
 
 ## 📂 Project Files
-- Arduino Source Code
+- README Documentation
+- Arduino Source Code 
 - Circuit Diagram
-- Project Documentation
 - Demonstration Images/Video
 
 ## 🚀 Future Enhancements
-- GSM-based SMS emergency notifications
-- GPS location sharing during emergencies
-- IoT-enabled remote alert monitoring
-- Push-button activation for instant SOS transmission
-- Wireless communication using Bluetooth or Wi-Fi
+- GSM module for SMS alerts
+- GPS location tracking
+- IoT-based remote monitoring
+- Bluetooth or Wi-Fi connectivity
+- Battery-powered portable emergency device
 
 ## 📌 Conclusion
-This project demonstrates how Arduino UNO can be used to generate a standardized SOS Morse code emergency signal through simple programming and digital output control. It serves as a practical introduction to embedded systems, timing-based applications, and emergency communication concepts.
+This project demonstrates how Arduino UNO can be used to implement an SOS emergency alert system by combining Morse code generation with LED, buzzer, and LCD outputs. It provides a practical introduction to embedded systems, timing control, and emergency signaling concepts.
