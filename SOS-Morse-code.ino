@@ -67,8 +67,6 @@ void loop() {
     sendS();  
     sendO();  
     sendS();  
-    //digitalWrite(LED, HIGH);
-    //tone(BUZZER);
     lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print("SOS COMPLETE!   ");
